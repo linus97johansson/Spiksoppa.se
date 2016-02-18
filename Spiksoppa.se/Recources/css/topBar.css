@@ -1,0 +1,47 @@
+#topBar {
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    background-color: firebrick;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffba98;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffba98), color-stop(0.31, #ff9966), color-stop(0.79, #9a5330), color-stop(0.79, #9a5330), to(#120904));
+    background: -webkit-linear-gradient(#ffba98 0%, #ff9966 31%, #9a5330 79%, #9a5330 79%, #120904 100%);
+    background: -moz-linear-gradient(#ffba98 0%, #ff9966 31%, #9a5330 79%, #9a5330 79%, #120904 100%);
+    background: -o-linear-gradient(#ffba98 0%, #ff9966 31%, #9a5330 79%, #9a5330 79%, #120904 100%);
+    background: linear-gradient(#ffba98 0%, #ff9966 31%, #9a5330 79%, #9a5330 79%, #120904 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffba98', endColorstr='#120904', GradientType=0);
+    border-bottom: 1px solid black;
+}
+
+
+#searchbar input{
+    width: 100%;
+}
+
+#searchbar {
+    display: flex;
+    border: 1px black solid;
+    background-color: white;
+    width: 35%;
+    height: 45%;
+    font-size: 2vh;
+}
+
+#logo {
+    width: 10%;
+    height: 80%;
+    border: 1px black solid;
+    background-color: beige;
+    margin-left: 15%;
+}
+
+#login {
+    width: 10%;
+    height: 80%;
+    border: 1px black solid;
+    background-color: lightblue;
+    margin-right: 15%;
+}

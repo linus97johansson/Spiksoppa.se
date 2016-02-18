@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /*border: 1px red solid;*/
+    /*display: flex;*/
+    
+}
+
+body {
+    background-color: beige;
+    /*display: flex;*/
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+}
+
+#wrapper {
+    padding-top:2%;
+    width: 80%;
+    background-color: graytext;
+}
+
+.main {
+    background-color: white;
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
