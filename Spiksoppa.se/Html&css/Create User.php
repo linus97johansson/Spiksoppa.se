@@ -1,16 +1,20 @@
 <?php
 require '../Recources/HeadHTML.php';
+$headHtml = new TopHtml(false);
+print $headHtml->displayTopHtml();
 ?>
 <link type="text/css" href="Create.css"  rel="stylesheet">
+
+
 </head>
 <body>
-        <?php
-            require '../Recources/TopBar.php';
-        ?>
+    <?php
+    require '../Recources/TopBar.php';
+    ?>
 <div class='Container'>
     <!--<div id=wrapper>-->
         <div class="Form">
-            <from action="GET">
+            <form action="GET">
             <h3>Skapa ditt eget användarkonto</h3>
          
             <h4>Så att du kan uppleva spiksoppa till dess faulla potensial</h4>
@@ -28,7 +32,7 @@ require '../Recources/HeadHTML.php';
             </p>
         
             <p>Email:
-                <input type="mail" name="mail"/>
+                <input type="email" name="email"/>
             </p>
         
             <p>Val av Lösenord:
@@ -57,5 +61,4 @@ require '../Recources/HeadHTML.php';
                 window.location.href('https://spiksoppa-linus97johansson.c9.io/index.php');
             }
         </script>
-          </div>
 </body>
